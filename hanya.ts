@@ -12,4 +12,14 @@ namespace hanya {
         basic.clearScreen()
         basic.pause(duration * 100)
     }
+
+    //% blockId=show_heart
+    //% block="Show small heart | for $duration x 0.1 seconds"
+    //% duration.min=0 duration.max=1000 duration.defl=1
+    export function showSmallHeart(duration: number): void {
+        basic.showIcon(IconNames.SmallHeart)
+        basic.pause(duration * 100)
+        basic.clearScreen()
+        basic.pause(duration * 100)
+    }
 }
