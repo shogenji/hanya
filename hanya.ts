@@ -13,7 +13,7 @@ namespace hanya {
         basic.pause(duration * 100)
     }
 
-    //% blockId=show_heart
+    //% blockId=show_small_heart
     //% block="Show small heart | for $duration x 0.1 seconds"
     //% duration.min=0 duration.max=1000 duration.defl=1
     export function showSmallHeart(duration: number): void {
