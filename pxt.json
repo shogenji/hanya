@@ -6,7 +6,6 @@
         "core": "*"
     },
     "files": [
-        "main.blocks",
         "README.md",
         "hanya.ts",
         "_locales/ja/hanya-strings.json"
