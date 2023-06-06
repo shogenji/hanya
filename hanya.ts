@@ -1,7 +1,7 @@
 /**
  * Test for Building Extensions.
  */
-//% color=190 weight=100 icon="\uf0c3" block="Test Blocks"
+//% color=190 weight=100 icon="\uf0c3" block="TestBlocks"
 namespace hanya {
     //% blockId=show_heart
     //% block="show heart | for $duration x 0.1 seconds"
