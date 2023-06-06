@@ -1,6 +1,5 @@
 {
     "hanya.showHeart|block": "ハートを表示（ミリ秒）$duration",
     "hanya.showSmallHeart|block": "小さなハートを表示（ミリ秒）$duration",
-    "hanya|block": "TestBlocks",
-    "{id:category}TestBlocks": "テストブロック"
+    "hanya|block": "テストブロック"
 }
