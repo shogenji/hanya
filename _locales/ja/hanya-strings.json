@@ -2,6 +2,6 @@
     "hanya.showHeart|block": "ハートを表示（ミリ秒）$duration",
     "hanya.showSmallHeart|block": "小さなハートを表示（ミリ秒）$duration",
     "hanya|block": "テストのブロック",
-    "{id:groups}Ha": "は",
-    "{id:category}Hi": "ひ"
+    "{id:group}Ha": "は",
+    "{id:category}hanya": "はにゃ"
 }
