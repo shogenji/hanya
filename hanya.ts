@@ -20,6 +20,7 @@ namespace hanya {
     //% duration.min=0 duration.max=100000 duration.defl=1000
     //% duration.shadow="timePicker"
     //% group="Hi"
+    //% subcategory="Settings"
     export function showSmallHeart(duration: number): void {
         basic.showIcon(IconNames.SmallHeart)
         basic.pause(duration)
