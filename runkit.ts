@@ -42,7 +42,7 @@ namespace runkit {
     }
 
     //% blockId=rotate_ccw
-    //% weight=70
+    //% weight=80
     //% block="Rotate counter-clockwise for $duration"
     //% duration.min=0 duration.max=1000000 duration.defl=1000
     //% duration.shadow="timePicker"
@@ -54,11 +54,11 @@ namespace runkit {
     }
 
     //% blockId=rotate_cw
-    //% weight=80
+    //% weight=70
     //% block="Rotate clockwise for $duration"
     //% duration.min=0 duration.max=1000000 duration.defl=1000
     //% duration.shadow="timePicker"
-    export function rotateCw(duration: number): void {
+    export function turnCw(duration: number): void {
         motorOn(Motors.Left, Dir.Forward, speedRatio)
         motorOn(Motors.Right, Dir.Backward, speedRatio)
         basic.pause(duration)
