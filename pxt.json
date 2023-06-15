@@ -7,8 +7,8 @@
     },
     "files": [
         "README.md",
-        "hanya.ts",
-        "_locales/ja/hanya-strings.json"
+        "_locales/ja/hanya-strings.json",
+        "runkit.ts"
     ],
     "testFiles": [
         "test.ts"
